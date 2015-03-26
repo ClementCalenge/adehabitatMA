@@ -1,0 +1,24 @@
+useDynLib(adehabitatMA)
+
+import(methods, sp)
+importFrom(graphics, hist, image)
+importFrom(utils, head, tail)
+
+export(.adehabitatMAEnv)
+exportPattern("^[a-o]")
+exportPattern("^[q-z]")
+
+
+S3method(hist, SpatialPixelsDataFrame)
+S3method(head, SpatialPointsDataFrame)
+S3method(tail, SpatialPointsDataFrame)
+S3method(head, SpatialPoints)
+S3method(tail, SpatialPoints)
+
+S3method(print, SpatialPixelsDataFrame)
+S3method(print, SpatialPixels)
+S3method(print, SpatialGridDataFrame)
+S3method(print, SpatialPolygonsDataFrame)
+
+
+exportMethods(show)
