@@ -30,7 +30,7 @@ explore(ka, coltxt="black",
 data(meuse.grid)
 m <- SpatialPixelsDataFrame(points = meuse.grid[c("x", "y")],
                             data = meuse.grid)
-explore(m[,3:6])
+explore(m[,3:5])
 
 data(lynxjura)
 explore(lynxjura$map, panel.last=function() points(lynxjura$locs))

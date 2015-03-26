@@ -11,6 +11,13 @@ explore <- function (ka, coltxt="black",
         stop("ka should be defined in two dimensions")
     if ((gr[1, 2] - gr[2, 2])> get(".adeoptions", envir=.adehabitatMAEnv)$epsilon)
         stop("the cellsize should be the same in x and y directions")
+    if (!all(sapply(1:ncol(ka), function(i) is.numeric(ka[[i]])))) {
+        warning("Not all variables in ka are numeric.\nOther variables have been converted to numeric")
+        for (j in 1:ncol(ka)) {
+            if (!is.numeric(ka[[j]]))
+                ka[[j]] <- as.numeric(factor(ka[[j]]))
+        }
+    }
 
     e1 <- new.env(parent = baseenv())
     assign("nn", NULL, envir=e1)
