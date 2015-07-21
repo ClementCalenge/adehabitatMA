@@ -1,8 +1,10 @@
 useDynLib(adehabitatMA)
 
 import(methods, sp)
-importFrom(graphics, hist, image)
 importFrom(utils, head, tail)
+importFrom("graphics", "axis", "barplot", "box", "close.screen", "lines", "locator", "par", "screen", "split.screen", "text", "title", "hist", "image")
+importFrom("grDevices", "gray", "n2mfrow")
+importFrom("stats", "density")
 
 export(.adehabitatMAEnv)
 exportPattern("^[a-o]")
