@@ -47,7 +47,7 @@
           xy2 <- as.data.frame(coordinates(xy))
           lixy <- split(xy2, id)
           cp <- lapply(lixy, function(x) {
-              count.points(SpatialPoints(x), w)
+              count.points(SpatialPoints(x,proj4string = CRS(pfsxy)), w)
           })
           cp <- do.call("data.frame", lapply(cp, function(x) x[[1]]))
           coordinates(cp) <- coordinates(w)
@@ -57,4 +57,3 @@
           return(cp)
       }
   }
-
