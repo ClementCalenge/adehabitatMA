@@ -43,6 +43,7 @@
               proj4string(repo) <- CRS(pfsx)
           return(repo)
       } else {
+          cat("Counting the number of points for each level of the factor", names(xy@data)[1], "...\n")
           id <- factor(xy[[1]])
           xy2 <- as.data.frame(coordinates(xy))
           lixy <- split(xy2, id)
