@@ -1,6 +1,6 @@
 Package: adehabitatMA
-Version: 0.3.10
-Date: 2015-07-22
+Version: 0.3.11
+Date: 2016-08-30
 Depends: R (>= 2.10.0), sp, methods
 Suggests: maptools, tkrplot, MASS
 Imports: utils, graphics, grDevices, stats
