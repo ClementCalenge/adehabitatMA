@@ -3,7 +3,7 @@ Version: 0.3.11
 Date: 2016-08-30
 Depends: R (>= 2.10.0), sp, methods
 Suggests: maptools, tkrplot, MASS
-Imports: utils, graphics, grDevices, stats
+Imports: utils, graphics, grDevices, stats, filehash
 Title: Tools to Deal with Raster Maps
 Author: Clement Calenge, contributions from Mathieu Basille
 Maintainer: Clement Calenge <clement.calenge@oncfs.gouv.fr>
