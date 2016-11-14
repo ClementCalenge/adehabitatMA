@@ -802,7 +802,7 @@ a \texttt{SpatialPixelsDataFrame} from a set of points. This function
 allows to specify either the size of the pixel or the number of
 rows/columns of the grid. For example, to generate a
 \texttt{SpatialPixelsDataFrame} object from the set of locations of
-presence indices of the lynx, with a pixel size of 1000 $\times$ 1000
+presence indices of the lynx, with a pixel size of 5000 m $\times$ 5000
 m:
 
 <<>>=
