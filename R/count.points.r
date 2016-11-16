@@ -25,9 +25,9 @@
       meth <- "one"
       if (inherits(xy, "SpatialPointsDataFrame")) {
           if (ncol(xy)==1) {
-              meth="sev"
+              meth <- "sev"
           } else {
-              meth="one"
+              meth <- "one"
               warning("several columns in the SpatialPointsDataFrame, no id considered")
           }
       }
@@ -43,7 +43,7 @@
               proj4string(repo) <- CRS(pfsx)
           return(repo)
       } else {
-          cat("Counting the number of points for each level of the factor", names(xy@data)[1], "...\n")
+          message("Counting the number of points for each level of the factor", names(xy@data)[1], "...\n")
           id <- factor(xy[[1]])
           xy2 <- as.data.frame(coordinates(xy))
           lixy <- split(xy2, id)
