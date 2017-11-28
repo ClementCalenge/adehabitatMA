@@ -48,7 +48,7 @@ void DiagobgComp (int n0, double **w, double *d, int *rang);
 
 /* Functions from the package adehabitat */
 void mvtfreeman(int *in, int *jn, int *dir, int *np);
-void getcontour(double *grille, int *nlig, int *ncol, int *indicelig, 
+void getcontourc(double *grille, int *nlig, int *ncol, int *indicelig, 
 		int *indicecol, int *lcont);
 void lcontour(double *grille, int *nlig, int *ncol, int *lcont);
 void levels(double *vec, double *lev, int *lvec);
@@ -1054,7 +1054,7 @@ void mvtfreeman(int *in, int *jn, int *dir, int *np)
    **************************************************************** */
 
 
-void getcontour(double *grille, int *nlig, int *ncol, int *indicelig, 
+void getcontourc(double *grille, int *nlig, int *ncol, int *indicelig, 
 		int *indicecol, int *lcont)
 {
     /* Declaration of local variables */
