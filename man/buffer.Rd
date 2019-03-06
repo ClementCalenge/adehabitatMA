@@ -48,6 +48,7 @@ locs <- lynxjura$locs
 head(locs)
 
 ## just for the sake of illustration: sample 100 points
+suppressWarnings(RNGversion("3.5.0"))
 set.seed(233)
 locs <- locs[sample(1:nrow(locs), 100),]
 
@@ -66,7 +67,7 @@ buani
 par(mar=c(0,0,2,0))
 opar<-par(mfrow=c(3,4))
 lapply(1:11, function(i) {
-   image(buani, i)
+   image(buani[,i])
    title(main = names(slot(buani, "data"))[i])
 })
 par(opar)

@@ -17,7 +17,7 @@ the {\tt adehabitatMA} Package }
   Office national de la classe et de la faune
   sauvage\\
   Saint Benoist -- 78610 Auffargis -- France.}
-\date{Feb 2011}
+\date{Mar 2019}
 
 \begin{document}
 
@@ -105,6 +105,7 @@ library(adehabitatMA)
 @
 
 <<echo=FALSE,print=FALSE>>=
+suppressWarnings(RNGversion("3.5.0"))
 set.seed(13431)
 adeoptions(shortprint=TRUE)
 @
