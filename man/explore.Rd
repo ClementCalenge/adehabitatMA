@@ -21,7 +21,7 @@ explore(ka, coltxt="black",
   \item{\dots}{additional parameters to be passed to the function
     \code{image}} 
 }
-\author{ Clement Calenge \email{clement.calenge@oncfs.gouv.fr}}
+\author{ Clement Calenge \email{clement.calenge@ofb.gouv.fr}}
 \seealso{  \code{\link[sp]{SpatialPixelsDataFrame-class}} for additionnal
   information on objects of class \code{SpatialPixelsDataFrame}.}
 \examples{

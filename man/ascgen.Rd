@@ -23,7 +23,7 @@ ascgen(xy, cellsize = NULL, nrcol = NULL, count = TRUE)
 \value{
   Returns an object of class \code{SpatialPixelsDataFrame}.
 }
-\author{Clement Calenge \email{clement.calenge@oncfs.gouv.fr} }
+\author{Clement Calenge \email{clement.calenge@ofb.gouv.fr} }
 \seealso{\code{\link[sp]{SpatialPixelsDataFrame-class}} for additional
   information on objects of class \code{SpatialPixelsDataFrame} and
   \code{\link[sp]{SpatialPoints-class}} for additional information on

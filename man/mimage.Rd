@@ -15,7 +15,7 @@ mimage(x, var = names(slot(x, "data")), col = gray((240:1)/256), mfrow = NULL)
   \item{mfrow}{The parameter \code{mfrow} for the resulting graph (see
     \code{help(par)} }
 }
-\author{  Clement Calenge \email{clement.calenge@oncfs.gouv.fr} }
+\author{  Clement Calenge \email{clement.calenge@ofb.gouv.fr} }
 \seealso{ \code{\link{par}} for information about \code{mfrow}, and
   \code{\link[sp]{SpatialPixelsDataFrame-class}} for additionnal
   information on objects of class \code{SpatialPixelsDataFrame}.}

@@ -20,7 +20,7 @@ morphology(x, operation = c("erode", "dilate"), nt = 5)
   column, containing 1 when the pixel belong to one feature of the image
   and \code{NA} otherwise (see examples).
 }
-\author{Clement Calenge \email{clement.calenge@oncfs.gouv.fr} }
+\author{Clement Calenge \email{clement.calenge@ofb.gouv.fr} }
 \seealso{\code{\link[sp]{SpatialPixelsDataFrame-class}} for further
   information on objects of class \code{SpatialPixelsDataFrame}.} 
 \examples{

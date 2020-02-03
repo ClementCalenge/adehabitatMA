@@ -27,7 +27,7 @@ lowres(x, np = 2, which.fac=NULL, \dots)
 \value{
   Returns an object of class \code{SpatialPixelsDataFrame}.
 }
-\author{Clement Calenge \email{clement.calenge@oncfs.gouv.fr}}
+\author{Clement Calenge \email{clement.calenge@ofb.gouv.fr}}
 \seealso{\code{\link[sp]{SpatialPixelsDataFrame-class}} for further
   information on objects of class \code{SpatialPixelsDataFrame}.}
 \examples{

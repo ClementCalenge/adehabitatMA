@@ -50,5 +50,5 @@ attpol2area(srdf)
   \code{spol2area} ignore them and returns only the external contour of
   the polygon (though a warning is returned).
 }
-\author{ Clement Calenge \email{clement.calenge@oncfs.gouv.fr}}
+\author{ Clement Calenge \email{clement.calenge@ofb.gouv.fr}}
 \keyword{hplot}

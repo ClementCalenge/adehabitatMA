@@ -22,7 +22,7 @@ count.points(xy, w)
   \code{SpatialPointsDataFrame} with one column (a factor), the
   resulting object contains one column per level of this factor.
 }
-\author{Clement Calenge \email{clement.calenge@oncfs.gouv.fr} }
+\author{Clement Calenge \email{clement.calenge@ofb.gouv.fr} }
 
 \seealso{ \code{\link[sp]{SpatialPixelsDataFrame-class}} for additionnal
   information on objects of class \code{SpatialPixelsDataFrame}.}

@@ -24,7 +24,7 @@ subsetmap(x, xlim = NULL, ylim = NULL, \dots)
 \value{
   Returns an object of class \code{SpatialPixelsDataFrame}
 }
-\author{Clement Calenge \email{clement.calenge@oncfs.gouv.fr},
+\author{Clement Calenge \email{clement.calenge@ofb.gouv.fr},
   improvements by Jon Olav Vik}
 \examples{
 

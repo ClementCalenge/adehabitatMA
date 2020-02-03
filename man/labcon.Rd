@@ -16,7 +16,7 @@ labcon(x)
   Returns a matrix of class \code{asc}, of type \code{"factor"}, with a
   number of levels equals to the number of connected components
 }
-\author{Clement Calenge \email{clement.calenge@oncfs.gouv.fr}}
+\author{Clement Calenge \email{clement.calenge@ofb.gouv.fr}}
 \seealso{\code{\link[sp]{SpatialPixelsDataFrame-class}} for further
   information on the class \code{SpatialPixelsDataFrame}}
 

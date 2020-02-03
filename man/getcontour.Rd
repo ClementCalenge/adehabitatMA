@@ -19,7 +19,7 @@ getcontour(sp)
 \section{Warning }{
   Holes in the polygons are not taken into account by the function.
 }
-\author{ Clement Calenge \email{clement.calenge@oncfs.gouv.fr} }
+\author{ Clement Calenge \email{clement.calenge@ofb.gouv.fr} }
 \seealso{ \code{\link[sp]{SpatialPixelsDataFrame-class}} for additionnal
   information on objects of class \code{SpatialPixelsDataFrame}.}
 

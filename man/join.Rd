@@ -23,7 +23,7 @@
   object of class \code{SpatialPixelsDataFrame}, and with each row
   corresponding to the rows of \code{xy}. 
 }
-\author{Clement Calenge \email{clement.calenge@oncfs.gouv.fr} }
+\author{Clement Calenge \email{clement.calenge@ofb.gouv.fr} }
 
 \seealso{ \code{\link[sp]{SpatialPixelsDataFrame-class}} for additionnal
   information on objects of class \code{SpatialPixelsDataFrame}.

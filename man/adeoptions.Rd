@@ -29,7 +29,7 @@ adeoptions(\dots)
 \value{
   a list of options for the package \code{adehabitatMA}
 }
-\author{ Clement Calenge \email{clement.calenge@oncfs.gouv.fr} }
+\author{ Clement Calenge \email{clement.calenge@ofb.gouv.fr} }
 \examples{
 
 ## load the data

@@ -1,12 +1,12 @@
 Package: adehabitatMA
-Version: 0.3.13
-Date: 2019-04-07
+Version: 0.3.14
+Date: 2020-01-11
 Depends: R (>= 2.10.0), sp, methods
 Suggests: maptools, tkrplot, MASS
 Imports: utils, graphics, grDevices, stats, filehash
 Title: Tools to Deal with Raster Maps
 Author: Clement Calenge, contributions from Mathieu Basille
-Maintainer: Clement Calenge <clement.calenge@oncfs.gouv.fr>
+Maintainer: Clement Calenge <clement.calenge@ofb.gouv.fr>
 Description: A collection of tools to deal with raster maps.
 License: GPL (>= 2)
 

@@ -18,7 +18,7 @@
   \code{PolyLinesDataFrame} with an additionnal column containing the
   perimeter of the polygons/polylines.
 }
-\author{Clement Calenge \email{clement.calenge@oncfs.gouv.fr}}
+\author{Clement Calenge \email{clement.calenge@ofb.gouv.fr}}
 \seealso{\code{\link[sp]{SpatialPolygonsDataFrame-class}} for
   additionnal information on objects of class
   \code{SpatialPolygonsDataFrame}.}
