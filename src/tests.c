@@ -883,7 +883,7 @@ void prodmatAAtB (double **a, double **b)
 void prodmatAtBrandomC (double **a, double **b, double **c, int*permut)
 /*--------------------------------------------------
  * Produit matriciel AtB
- * les lignes de B sont permutÚes par la permutation permut
+ * les lignes de B sont permutees par la permutation permut
  --------------------------------------------------*/
 {
     int j, k, i, i0, lig, col, col2;

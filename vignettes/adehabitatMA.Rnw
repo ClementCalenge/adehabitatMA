@@ -383,7 +383,7 @@ In getcontour(forest) :
 The resulting object is of the class \texttt{SpatialPolygons}. It can
 therefore be handled with other functions of the package \texttt{sp},
 and can be exported toward a GIS using the functions of the package
-\texttt{maptools}.\\
+\texttt{sf} after conversion with \texttt{st\_as\sf} from this package.\\
 
 However, note the warning here. To understand it, look at the
 resulting object:

@@ -1,5 +1,6 @@
 \name{adehabitatMA-internal}
 \alias{showspidf}
+\alias{.adehabitatMAEnv}
 \alias{showspodf}
 \alias{showsp}
 \alias{showsgdf}
